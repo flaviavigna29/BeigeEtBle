@@ -1,0 +1,106 @@
+.home-section {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 2560px) {
+    .home-section {
+        padding: 100px 0;
+    }
+}
+
+.home-section header {
+    background-image: url(../../storage/app/public/home_page/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*? SECTION 1 */
+.home-section .section-1 {
+    background-color: var(--color-blue);
+    color: var(--color-beige);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    min-height: 500px; 
+}
+
+.home-section .section-1 .col-12 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 550px;
+}
+
+.home-section .section-1 .col-12 p:first-of-type::first-letter {
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: var(--color-ocra-A); 
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.home-section .section-1 p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/*? SECTION 2 */
+.home-section .section-2 {
+    background-image: url(../../storage/app/public/home_page/rooms.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*? SECTION 3 */
+.home-section .section-3 {
+    background-color: var(--color-beige);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px; 
+}
+.home-section .section-3 .col-12 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 550px;
+}
+.rounded-custom {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* #carouselExampleSlidesOnly {
+    height: 400px;
+    width: 100%;
+} */
+
+#carouselExampleSlidesOnly .carousel-inner img {
+    /* height: 80%;  */
+    object-fit: cover;
+    width: 100%;
+}
+
+/*? SECTION 4 */
+.home-section .section-4 {
+    background-image: url(../../storage/app/public/home_page/breackfast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*? SECTION 5 */
+.home-section .section-5 {
+    background-color: var(--color-blue);
+    height: 500px;
+}
+
+
+
