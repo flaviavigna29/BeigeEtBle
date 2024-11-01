@@ -9,9 +9,7 @@
 /* .color-beige {
     color: var(--color-beige);
 }
-.color-ocra-A {
-    color: var(--color-ocra-A);
-}
+
 .color-ocra-B {
     color: var(--color-ocra-B);
 }
@@ -22,6 +20,9 @@
     color: var(--color-grey);
 } */
 
+body {
+    background-color: var(--color-blue);
+}
 /* Colori <a> e <i> */
 a i {
     color: var(--color-ocra-A);
@@ -30,13 +31,15 @@ a i {
 
 a:hover {
     color: var(--color-ocra-B);
-    /* color: red; */
 }
 
 a:hover i {
     color: var(--color-ocra-B);
 }
 
+.color-ocra-A {
+    color: var(--color-ocra-A)!important;
+}
 /* Settings Navbar */
 nav {
     font-family: "Montserrat", sans-serif;

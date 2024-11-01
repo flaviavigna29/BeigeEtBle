@@ -1,0 +1,92 @@
+.rooms-section {
+    padding: 50px 0;
+    background-image: url(../../storage/app/public/contact-us_page/bg_contact.png);
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Playfair Display", serif;
+}
+.rooms-section h1 {
+    color: rgba(170, 128, 44);
+    font-size: 45px;
+}
+
+.rooms-section .card {
+    background-color: rgba(170, 128, 44, .8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.rooms-section .card h2, 
+.modal h5{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.rooms-section .card h5 {
+    font-size: 12px;
+    color: var(--color-blue);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.rooms-section .card h5 i {
+    font-size: 11px;
+    color: var(--color-blue);
+    text-transform: unset;
+}
+
+.offcanvas {
+    width: 200px;
+    background-color: #3b535d;
+    color: #ecf0f1;
+    font-size: 14px;
+}
+
+.rooms-section a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-ocra-B);
+    text-shadow: 3px 3px 5px rgb(56, 81, 92);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.rooms-section a:hover {
+    transform: scale(1.1);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.info-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #3b535d; 
+    z-index: 9;
+}
+.info-icon:hover {
+    color: var(--color-ocra-B);
+}
+
+.small-arrow {
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+}
+
+.modal-content {
+    font-family: "Playfair Display", serif;
+    background-color: rgba(170, 128, 44, .7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}

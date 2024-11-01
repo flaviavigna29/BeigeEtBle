@@ -10,16 +10,16 @@
                     alt="Logo" style="width: 150px"></a>
             <ul class="navbar-nav col-lg-6 justify-content-lg-center">
                 <li class="nav-item">
-                    <a class="nav-link active mx-2" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="{{route('homepage')}}">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-1" aria-disabled="true">ROOMS</a>
+                    <a class="nav-link mx-1" aria-disabled="true" href="{{route('rooms')}}">ROOMS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-1" aria-disabled="true">CONTACT US</a>
+                    <a class="nav-link mx-1" aria-disabled="true" href="{{route('contact_us')}}">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-1" aria-disabled="true">BOOK NOW!</a>
+                    <a class="nav-link mx-1" aria-disabled="true" href="{{route('book_now')}}" target="blank">BOOK NOW!</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mx-1" aria-disabled="true"><i class="bi bi-flag-fill"></i></a>
