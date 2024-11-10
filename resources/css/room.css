@@ -1,0 +1,130 @@
+.room-section {
+    font-family: "Playfair Display", serif;
+    color: white;
+}
+
+/*! header */
+.header-image {
+    background-image: url(../../storage/app/public/rooms_page/cassiopea/BRG_9838.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 500px;
+}
+.room-description {
+    color: rgba(191, 191, 191, 0.85) !important;
+    background-color: rgba(0, 0, 0, 0.85);
+    max-width: 500px;
+}
+.room-description h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.room-description h2 {
+    font-style: italic;
+    font-size: 2.5em;
+}
+.room-description p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+.border_ocra_2 {
+    border-bottom: 3px solid var(--color-ocra-A);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+/*! bottone */
+.bg-img {
+    background-image: url(../../storage/app/public/contact-us_page/bg_contact.png);
+}
+.availability-btn {
+    border: 2px solid #f0c05a;
+    border-radius: 22px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    background: none;
+    text-transform: uppercase;
+    font-size: small;
+    transition: 0.3s;
+    letter-spacing: 0.1rem;
+}
+.availability-btn:hover {
+    background-color: #f0c05a;
+    color: #283845;
+}
+/*! row-2 */
+.section-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../../storage/app/public/rooms_page/cassiopea/BRG_9921.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.accordion {
+    width: 100%;
+}
+.accordion-body {
+    width: 100%;
+}
+
+.accordion-button {
+    background-color: rgba(57, 56, 56, 0.237);
+    color: white;
+    border-radius: 0px !important;
+}
+.accordion-item {
+    background-color: rgba(0, 0, 0, 0.65) !important;
+    color: white;
+    border-radius: 0px !important;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.services-section li,
+.accordion-item p.accordion-header button.accordion-button{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+.custom-accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+
+.custom-accordion-button i {
+    transition: transform 0.3s;
+} 
+
+.custom-accordion-button[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+.accordion-button::after {
+    display: none;
+}
+
+.custom-accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.custom-accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+}
+
+.custom-accordion-button:hover {
+    background-color: transparent;
+    border: none;
+}
+

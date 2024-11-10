@@ -18,7 +18,7 @@
     flex-direction: column;
     padding: 0px !important;
     margin: 0px !important;
-    width: 700px;
+    width: 600px;
 }
 .home-section h2,
 .home-section a {
@@ -31,10 +31,15 @@
     border-radius: 8px;
     min-width: 100% !important;
 }
-.home-section .card_home h5 {
-    font-size: 22px;
+.home-section .card_home h5,
+.home-section .card_home h5 a {
+    font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.6);
+}
+.home-section .card_home h5,
+.home-section .card_home h5 a:hover {
+    color: #474b57;
 }
 .home-section .card_home p {
     font-size: 14px;
@@ -67,7 +72,7 @@
     line-height: 1;
 }
 .section-1 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 2;
     text-align: justify;
     font-family: "Roboto", sans-serif;

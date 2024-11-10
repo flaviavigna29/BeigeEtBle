@@ -11,30 +11,30 @@
         <div class="section-1 row m-0">
             <div class="col-12 col-md-6 m-0 ">
                 <div class="p-5 m-0">
-                    <p class="pb-2 lead">In the <strong>vibrant heart of Rome</strong>, the elegant and welcoming Beige
+                    <p class="pb-2 lead">In the <b>vibrant heart of Rome</b>, the elegant and welcoming Beige
                         et
                         Ble’ GuestHouse
-                        boasts a privileged location just a short distance from the main <strong>religious
-                            sites</strong>, <strong>business centers</strong>, and the most famous <strong>tourist
-                            attractions</strong> of the city.</p>
-                    <p class="pb-2 lead">The property is situated within an imposing <strong>18th-century</strong> noble
+                        boasts a privileged location just a short distance from the main <b>religious
+                            sites</b>, <b>business centers</b>, and the most famous <b>tourist
+                            attractions</b> of the city.</p>
+                    <p class="pb-2 lead" >The property is situated within an imposing <b>18th-century</b> noble
                         residence
-                        overlooking the <strong>Italian parliament</strong>.</p>
-                    <p class=" lead">The convenience of the location is guaranteed by the proximity to the
-                        <strong>subway
-                            stop</strong> and the ease with which the main r<strong>ailway stations</strong> and
-                        <strong>airports</strong> can be reached.
+                        overlooking the <b>Italian parliament</b>.</p>
+                    <p class="lead">The convenience of the location is guaranteed by the proximity to the
+                        <b>subway
+                            stop</b> and the ease with which the main r<b>ailway stations</b> and
+                        <b>airports</b> can be reached.
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md-6 m-0 ">
                 <div class="p-5 m-0">
-                    <p class="my-2 lead">Each room is equipped with a <strong>private bathroom</strong>, air
+                    <p class="pb-2  lead">Each room is equipped with a <strong>private bathroom</strong>, air
                         conditioning,
                         a 32-inch Smart
                         TV, free high-speed Wi-Fi, a safety deposit box, heating, and a hairdryer. Guests can enjoy
                         optimal rest on our<strong> King</strong> and <strong>Queen size beds</strong>.</p>
-                    <p class="my-2 lead">We offer our guests a <strong>daily cleaning service</strong> and <strong>towel
+                    <p class="pb-2  lead">We offer our guests a <strong>daily cleaning service</strong> and <strong>towel
                             change</strong>
                         during their stay to ensure a fresh and clean environment.</p>
                     <p class="my-2 lead">In the common area, guests can find a <strong>coffee</strong> machine and
@@ -49,15 +49,17 @@
         <div class="section-2 row m-0 d-flex justify-content-around">
             <div class="col-12 col-md-4 d-none d-md-block px-5">
             </div>
-            <div class="col-12 col-md-4 px-5">
+            <div class="col-12 col-md-5 px-5">
                 <div class="card_home py-5 px-4 px-md-5 mx-auto d-flex flex-column justify-content-center">
-                    <h2><a href="" class="text-decoration-none">Rooms & Suites</a></h2>
+                    <h2><a href="{{route('rooms')}}" class="text-decoration-none">Rooms & Suites</a></h2>
                     <p>For Every Occasion</p>
-                    <h5 class="mb-0">Double or Twin Rooms</h5>
+                    <h5 class="mb-0"><a href="" class="text-decoration-none">Hydra - <small>Double Room</small></a></h5>
                     <span class="mb-0 pb-2">14mq - Private Bathroom - WIFI - SmartTV - Daily Cleaning</span>
-                    <h5 class="mb-0">Deluxe Double Room</h5>
+                    <h5 class="mb-0"><a href="" class="text-decoration-none">Aries - <small>Twin or Double Room</small></a></h5>
+                    <span class="mb-0 pb-2">14mq - Private Bathroom - WIFI - SmartTV - Deluxe Double Room</span>
+                    <h5 class="mb-0"><a href="" class="text-decoration-none">Orione - <small>Twin or Double Room</small></a></h5>
                     <span class="mb-0 pb-2">18mq - Private Bathroom - WIFI - SmartTV - Daily Cleaning</span>
-                    <h5 class="mb-0">Deluxe Double or Twin Room</h5>
+                    <h5 class="mb-0"><a href="{{route('cassiopea')}}" class="text-decoration-none">Cassiopea - <small>Deluxe Double or Twin Room</small></a></h5>
                     <span class="mb-0 pb-2">21mq - Private Bathroom - WIFI - SmartTV - Daily Cleaning</span>
                 </div>
             </div>
@@ -65,9 +67,8 @@
         {{-- * Sezione 3 Carousel --}}
         <div class="section-3 row m-0 d-flex justify-content-around">
             <div class="col-12 col-md-4 px-5">
-                <h2 class="text-dark">The Heart Of Rome</h2>
-                <p>All of Rome, just one step from you</p>
-                <p>Experience Rome <strong>on foot</strong>!</p>
+                <h2 class="text-dark pb-1">The Heart Of Rome</h2>
+                <p>All of Rome, just one step from you. Experience Rome <strong>on foot</strong>!</p>
                 <p>Explore the hidden treasures and charming streets of Rome, immersing yourself in the local
                     culture.</p>
                 <p>Perfect for <strong>tourism</strong>, <strong>work</strong>, or <strong>leisure</strong>, our
@@ -134,7 +135,7 @@
             <div class="col-12 col-md-4 d-none d-md-block px-5">
 
             </div>
-            <div class="col-12 col-md-4 px-5">
+            <div class="col-12 col-md-5 px-5">
                 <div class="card_home py-5 px-4 px-md-5 d-flex flex-column justify-content-center">
                     <h2>Breakfast & Lunch</h2>
                     <p>Sweet Atmosphere and Italian cuisine</p>
@@ -152,7 +153,7 @@
         {{-- * Sezione 5 Our Services --}}
         <div class="section-5 row m-0 d-flex justify-content-around">
             <div class="col-12 col-md-4 px-5">
-                <h2 class="color-ocra-A">Our Services</h2>
+                <h2 class="color-ocra-A pb-2">Our Services</h2>
                 <ul class="services-list">
                     <li><i class="fa-solid fa-wifi"></i> WIFI</li>
                     <li><i class="fa-solid fa-snowflake"></i> Air Conditioning</li>
