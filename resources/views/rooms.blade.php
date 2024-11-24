@@ -1,6 +1,6 @@
 <x-layout>
     {{-- * Rooms Section --}}
-    <div class="rooms-section container-fluid mt-5">
+    <div class="rooms-section container-fluid mt-5 Playfair">
         <div class="row px-5">
             <div class="col-12 text-center mb-2">
                 <h1 class="fw-bold fst-italic">Our Rooms</h1>
@@ -86,15 +86,59 @@
                                 style="max-width: 100%;">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0019.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0024.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0027.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0029.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0031.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0040.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0047.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_0054.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9705.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9711.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9712.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9715.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9745.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/hydra/BRG_9746.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                 </div>
@@ -112,9 +156,9 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
-                                <h2 class="card-title">Hydra</h2>
-                                <h5><i class="fas fa-expand-arrows-alt">14 mq</i> - Double Room</h5>
-                                <p class="card-text ">The HYDRA room, inspired by the mysterious Water
+                                <h3 class="card-title">Hydra</h3>
+                                <h5 class="Roboto"><i class="fas fa-expand-arrows-alt">14 mq</i> - Double Room</h5>
+                                <p class="card-text">The HYDRA room, inspired by the mysterious Water
                                     Snake, offers a peaceful and serene retreat. Its main feature is the harmonious
                                     combination of colors and fabrics that evoke the water element,...
                                 </p>
@@ -137,15 +181,63 @@
                                 style="max-width: 100%;">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_0015.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9725.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9737.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9750.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9755.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9756.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9768.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9769.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9777.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9972.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9974.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9979.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9984.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9987.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/aries/BRG_9996.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                 </div>
@@ -163,9 +255,10 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
-                                <h2 class="card-title">Aries</h2>
-                                <h5><i class="fas fa-expand-arrows-alt">14 mq</i> - Twin or Double Room</h5>
-                                <p class="card-text ">The vibrant ARIES room, dedicated to the Aries constellation,
+                                <h3 class="card-title">Aries</h3>
+                                <h5 class="Roboto"><i class="fas fa-expand-arrows-alt">14 mq</i> - Twin or Double Room
+                                </h5>
+                                <p class="card-text">The vibrant ARIES room, dedicated to the Aries constellation,
                                     stands out for its positive and dynamic energy. The details in red and beige,
                                     symbols of vitality and passion, blend with modern and functional...
                                 </p>
@@ -188,15 +281,47 @@
                                 style="max-width: 100%;">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9790.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9796.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9813.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9930.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9932.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9950.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9956.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9957.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9960.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9964.jpg') }}"
+                                            class="d-block w-100 rounded" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/orione/BRG_9970.jpg') }}"
                                             class="d-block w-100 rounded" alt="...">
                                     </div>
                                 </div>
@@ -214,11 +339,15 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
-                                <h2 class="card-title">Orione</h2>
-                                <h5><i class="fas fa-expand-arrows-alt">18 mq</i> - Deluxe Double Room</h5>
-                                <p class="card-text ">The spacious ORIONE room celebrates the majesty of the Orion
-                                    constellation. Its uniqueness lies in the refined decor with touches of classical
-                                    style and precious fabrics. This room is ideal for guests who...
+                                <h3 class="card-title">Orione</h3>
+                                <h5 class="Roboto"><i class="fas fa-expand-arrows-alt">18 mq</i> - Deluxe Double Room
+                                </h5>
+                                <p class="card-text "><small>The spacious ORIONE room celebrates the majesty of the
+                                        Orion
+                                        constellation. Its uniqueness lies in the refined decor with touches of
+                                        classical
+                                        style and precious fabrics. This room is ideal for guests who...
+                                    </small>
                                 </p>
                                 <a class="card-text text-decoration-none " href="{{ route('book_now') }}"
                                     target="blank">BOOK NOW!</a>
@@ -239,16 +368,68 @@
                                 style="max-width: 100%;">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
-                                            class="d-block w-100 rounded" alt="...">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9831.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
-                                            class="d-block w-100 rounded" alt="...">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9838.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
-                                            class="d-block w-100 rounded" alt="...">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9845.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9851.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9853.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9858.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9868.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9882.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9885.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9890.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9902.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9905.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9909.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9915.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9916.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9921.jpg') }}"
+                                            alt="Img 1" class="img-fluid rounded">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev " type="button"
@@ -265,11 +446,15 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
-                                <h2 class="card-title">Cassiopea</h2>
-                                <h5><i class="fas fa-expand-arrows-alt">21 mq</i> - Deluxe Twin or Double Room</h5>
-                                <p class="card-text">The bright CASSIOPEA room, inspired by the regal constellation of
-                                    the Queen of Ethiopia, stands out for its ethereal and refined atmosphere. Furniture
-                                    elements in shades of white and silver, combined...
+                                <h3 class="card-title">Cassiopea</h3>
+                                <h5 class="Roboto"><i class="fas fa-expand-arrows-alt">21 mq</i> - Deluxe Twin or
+                                    Double Room</h5>
+                                <p class="card-text"><small>The bright CASSIOPEA room, inspired by the regal
+                                        constellation of
+                                        the Queen of Ethiopia, stands out for its ethereal and refined atmosphere.
+                                        Furniture
+                                        elements in shades of white and silver, combined...
+                                    </small>
                                 </p>
                                 <a class="card-text text-decoration-none" href="{{ route('book_now') }}"
                                     target="_blank">BOOK NOW!</a>
@@ -283,11 +468,12 @@
     </div>
 
     {{-- Modale Hydra --}}
-    <div class="modal fade" id="Hydra" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal fade Playfair" id="Hydra" tabindex="-1" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="card-title fs-4" id="infoModalLabel">Hydra</h5>
+                <div class="modal-header border-ocra-B">
+                    <h3 class="card-title" id="infoModalLabel">Hydra</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
@@ -296,15 +482,59 @@
                             style="max-width: 100%;">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0019.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0024.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0027.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0029.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0031.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0040.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0047.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_0054.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9705.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9711.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9712.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9715.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9745.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/hydra/BRG_9746.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                             </div>
@@ -320,13 +550,17 @@
                             </button>
                         </div>
                     </div>
-                    <div class="pt-2">
-                        <p>The HYDRA room, inspired by the mysterious Water
+                    <div class="p-2">
+                        <p class="lh-md text-justify">The HYDRA room, inspired by the mysterious Water
                             Snake, offers a peaceful and serene retreat. Its main feature is the harmonious
                             combination of colors and fabrics that evoke the water element,
                             creating a relaxing
                             and rejuvenating atmosphere. A touch of blue in the decor details makes this room an
                             ideal oasis of peace for those seeking a relaxing environment.</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="card-text text-decoration-none" href="{{ route('book_now') }}" target="blank">BOOK
+                            NOW!</a>
                     </div>
                 </div>
             </div>
@@ -334,11 +568,12 @@
     </div>
 
     {{-- Modale Aries --}}
-    <div class="modal fade" id="Aries" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal fade Playfair" id="Aries" tabindex="-1" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="card-title fs-4" id="infoModalLabel">Aries</h5>
+                <div class="modal-header border-ocra-B">
+                    <h3 class="card-title" id="infoModalLabel">Aries</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
@@ -347,15 +582,63 @@
                             style="max-width: 100%;">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_0015.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9725.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9737.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9750.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9755.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9756.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9768.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9769.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9777.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9972.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9974.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9979.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9984.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9987.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/aries/BRG_9996.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                             </div>
@@ -371,8 +654,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="pt-2">
-                        <p>The vibrant ARIES room, dedicated to the Aries constellation,
+                    <div class="p-2">
+                        <p class="lh-md text-justify">The vibrant ARIES room, dedicated to the Aries constellation,
                             stands out for its positive and dynamic energy. The details in red and beige,
                             symbols of vitality and passion, blend with modern and functional
                             furniture, making this room ideal for those who desire a stimulating and lively environment.
@@ -382,17 +665,22 @@
                             type of guest.
                         </p>
                     </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="card-text text-decoration-none" href="{{ route('book_now') }}" target="blank">BOOK
+                            NOW!</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     {{-- Modale Orione --}}
-    <div class="modal fade" id="Orione" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal fade Playfair" id="Orione" tabindex="-1" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="card-title fs-4" id="infoModalLabel">Orione</h5>
+                <div class="modal-header border-ocra-B">
+                    <h3 class="card-title" id="infoModalLabel">Orione</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
@@ -401,15 +689,47 @@
                             style="max-width: 100%;">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9790.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9796.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9813.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9930.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9932.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9950.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9956.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9957.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9960.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9964.jpg') }}"
+                                        class="d-block w-100 rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/orione/BRG_9970.jpg') }}"
                                         class="d-block w-100 rounded" alt="...">
                                 </div>
                             </div>
@@ -425,12 +745,20 @@
                             </button>
                         </div>
                     </div>
-                    <div class="pt-2">
-                        <p>The spacious ORIONE room celebrates the majesty of the Orion constellation. Its uniqueness
-                            lies in the refined decor with touches of classical style and precious fabrics. This room is
-                            ideal for guests who appreciate discreet luxury and timeless elegance, ensuring an
-                            unforgettable and sophisticated stay experience.
+                    <div class="p-2">
+                        <p class="lh-md text-justify">
+                            <small>The spacious ORIONE room celebrates the majesty of the
+                                Orion constellation. Its uniqueness
+                                lies in the refined decor with touches of classical style and precious fabrics. This
+                                room is
+                                ideal for guests who appreciate discreet luxury and timeless elegance, ensuring an
+                                unforgettable and sophisticated stay experience.
+                            </small>
                         </p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="card-text text-decoration-none" href="{{ route('book_now') }}" target="blank">BOOK
+                            NOW!</a>
                     </div>
                 </div>
             </div>
@@ -438,11 +766,12 @@
     </div>
 
     {{-- Modale Cassiopea --}}
-    <div class="modal fade" id="Cassiopea" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal fade Playfair" id="Cassiopea" tabindex="-1" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable vw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="card-title fs-4" id="infoModalLabel">Cassiopea</h5>
+            <div class="modal-content ">
+                <div class="modal-header border-ocra-B">
+                    <h3 class="card-title" id="infoModalLabel">Cassiopea</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
@@ -451,16 +780,68 @@
                             style="max-width: 100%;">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9909.jpg') }}"
-                                        class="d-block w-100 rounded" alt="...">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9831.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9915.jpg') }}"
-                                        class="d-block w-100 rounded" alt="...">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9838.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('storage/rooms_page/prova/BRG_9916.jpg') }}"
-                                        class="d-block w-100 rounded" alt="...">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9845.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9851.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9853.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9858.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9868.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9882.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9885.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9890.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9902.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9905.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9909.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9915.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9916.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9921.jpg') }}"
+                                        alt="Img 1" class="img-fluid rounded">
                                 </div>
                             </div>
                             <button class="carousel-control-prev " type="button"
@@ -475,18 +856,24 @@
                             </button>
                         </div>
                     </div>
-                    <div class="pt-2">
-                        <p>The bright CASSIOPEA room, inspired by the regal constellation of
-                            the Queen of Ethiopia, stands out for its ethereal and refined atmosphere. Furniture
-                            elements in shades of white and silver, combined with decorations and soft lighting, create
-                            a
-                            celestial and sophisticated environment. The spaciousness of the room and the large
-                            relaxation
-                            area make it perfect for guests who want to immerse themselves in a unique and suggestive
-                            environment.
+                    <div class="px-2 py-1">
+                        <p class="lh-md text-justify"><small>The bright CASSIOPEA room, inspired by the regal
+                                constellation of
+                                the Queen of Ethiopia, stands out for its ethereal and refined atmosphere. Furniture
+                                elements in shades of white and silver, combined with decorations and soft lighting,
+                                create
+                                a
+                                celestial and sophisticated environment. The spaciousness of the room and the large
+                                relaxation
+                                area make it perfect for guests who want to immerse themselves in a unique and
+                                suggestive
+                                environment.</small>
                         </p>
                     </div>
-
+                    <div class="d-flex justify-content-center">
+                        <a class="card-text text-decoration-none" href="{{ route('book_now') }}" target="blank">BOOK
+                            NOW!</a>
+                    </div>
                 </div>
             </div>
         </div>

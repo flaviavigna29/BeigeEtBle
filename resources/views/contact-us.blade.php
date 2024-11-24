@@ -2,6 +2,7 @@
     <!-- Contact Section -->
     <div class="contact-section container-fluid mt-5">
         <div class="row px-5">
+            <x-display-message />
             <!-- Left Side -->
             <div class="col-12 col-lg-6 px-2 px-md-5">
                 <h4>Contatti</h4>
@@ -19,34 +20,57 @@
                 </div>
                 <h6>Scrivici Un Messaggio</h6>
                 <p class="border_ocra"></p>
-                <form class="row px-1 px-md-3 py-4">
+                <form class="row px-1 px-md-3 py-4" method="POST" action="{{ route('send_email') }}">
+                    @csrf
                     <div class="mb-4 col-12 col-md-6">
-                        <input type="text" class="form-control" id="" placeholder="Nome*">
+                        <input type="text" name="name" class="form-control" id="" placeholder="Nome*">
+                        <div class="text-danger fw-bold ">
+                            @error('name')
+                                {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                     <div class="mb-4 col-12 col-md-6">
-                        <input type="text" class="form-control" id="" placeholder="Cognome*">
+                        <input type="text" name="surname" class="form-control" id="" placeholder="Cognome*">
+                        <div class="text-danger fw-bold ">
+                            @error('surname')
+                                {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                     <div class="mb-4 col-12">
-                        <input type="email" class="form-control" id="" placeholder="La tua email*">
+                        <input type="email" name="email" class="form-control" id=""
+                            placeholder="La tua email*">
+                            <div class="text-danger fw-bold ">
+                                @error('email')
+                                    {{ $message }}
+                                @enderror
+                            </div>
                     </div>
                     <div class="mb-4 col-12 col-md-6">
-                        <select class="form-select">
+                        <select class="form-select" name="option">
                             <option selected>Oggetto*</option>
-                            <option value="1">Informazioni</option>
-                            <option value="2">Richiesta di contatto</option>
-                            <option value="3">Prenota una stanza</option>
-                            <option value="2">Assistenza alle prenotazioni</option>
-                            <option value="3">Altro</option>
+                            <option value="Informazioni">Informazioni</option>
+                            <option value="Richiesta di contatto">Richiesta di contatto</option>
+                            <option value="Prenota una stanza">Prenota una stanza</option>
+                            <option value="Assistenza alle prenotazioni">Assistenza alle prenotazioni</option>
+                            <option value="Altro">Altro</option>
                         </select>
                     </div>
                     <div class="mb-4 col-12 col-md-6">
-                        <input type="text" class="form-control" id="" placeholder="Numero di Prenotazione">
+                        <input type="text" name="number" class="form-control" id=""
+                            placeholder="Numero di Prenotazione">
                     </div>
                     <div class="mb-4 col-12">
-                        <textarea class="form-control" id="" rows="6" placeholder="Il tuo messaggio..."></textarea>
+                        <textarea class="form-control" id="" name="message" rows="6" placeholder="Il tuo messaggio..."></textarea>
+                        <div class="text-danger fw-bold ">
+                            @error('message')
+                                {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                     <div class="mb-4 col-12">
-                        <button>Invia</button>
+                        <button type="submit">Invia</button>
                     </div>
                 </form>
             </div>

@@ -1,44 +1,53 @@
+/* Root Colori */
 :root {
     --color-beige: #f2dbae;
     --color-ocra-A: #b29255;
     --color-ocra-B: #bda774;
     --color-blue: #38515c;
     --color-grey: #b6bcb5;
+    --color-orange: rgba(170, 128, 44, 0.75);
 }
 
-/* .color-beige {
-    color: var(--color-beige);
+/* Font */
+.Lora {
+    font-family: "Lora", serif;
+}
+.Roboto {
+    font-family: "Roboto", sans-serif;
+}
+.Playfair {
+    font-family: "Playfair Display", serif;
+}
+.Syncopate {
+    font-family: "Syncopate", sans-serif;
 }
 
-.color-ocra-B {
-    color: var(--color-ocra-B);
-}
-.color-blue {
-    color: var(--color-blue);
-}
-.color-grey {
-    color: var(--color-grey);
-} */
 
+.border-ocra-B {
+    border-bottom: solid 1px var(--color-ocra-B);
+}
+
+/* Body */
 body {
-    background-color: var(--color-blue);
+    background-image: url(../../storage/app/public/global_img/bg_global.png);
 }
+
 /* Colori <a> e <i> */
 a i {
     color: var(--color-ocra-A);
     margin-right: 8px;
 }
-
 a:hover {
     color: var(--color-ocra-B);
 }
-
 a:hover i {
     color: var(--color-ocra-B);
 }
-
 .color-ocra-A {
-    color: var(--color-ocra-A)!important;
+    color: var(--color-ocra-A) !important;
+}
+.color-grey {
+    color: var(--color-grey);
 }
 /* Settings Navbar */
 nav {
@@ -48,9 +57,40 @@ nav {
     background-color: #656565 !important;
     font-family: "Montserrat", sans-serif;
 }
-
 .nav-link {
     color: rgba(191, 191, 191, 0.85) !important;
+}
+.nav-link:hover {
+    color: var(--color-ocra-A) !important;
+    border-bottom: 1px solid var(--color-ocra-A);
+}
+.navbar-collapse {
+    background-color: #656565;
+}
+.navbar-collapse .nav-link {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar-toggler.border-none {
+    border: none;
+    box-shadow: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar {
+    min-height: 80px;
+}
+@media (max-width: 576px) {
+    .navbar {
+        min-height: 80px;
+    }
+    .navbar-brand, .navbar-toggler {
+        display: flex;
+        align-items: center; 
+    }
 }
 
 /* Settings Footer */
@@ -68,7 +108,6 @@ square {
     font-weight: 900;
     color: #edad00;
 }
-
 footer a {
     font-size: 0.8rem;
     font-style: italic;
@@ -76,16 +115,13 @@ footer a {
     padding: 10px 0px;
     text-decoration: none;
 }
-
 .copyright {
     font-size: 0.7rem;
     font-style: italic;
     color: grey;
 }
-
 .icon_footer {
     padding: 9px;
     background-color: #404040;
     color: #c6c6c7;
 }
-

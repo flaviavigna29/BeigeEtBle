@@ -1,12 +1,13 @@
 <x-layout>
-    <div class="room-section container-fluid pt-5 px-0 mx-0">
-        <div class="row header-image pt-5 bg-danger">
+    <div class="room-section container-fluid pt-5 px-0 mx-0 Playfair">
+        {{-- header --}}
+        <div class="row header-image pt-5">
             <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="py-5 px-4 px-md-5  d-flex flex-column room-description">
+                <div class="py-5 px-4 px-md-5 d-flex flex-column room-description">
                     <h1>Cassiopea</h1>
                     <h2>"Regina D'Etiopia"</h2>
                     <p class="border_ocra_2"></p>
-                    <p class="ps-lg-4"><strong>Camera matrimoniale o doppia deluxe</strong></p>
+                    <p class="ps-lg-4 Roboto text-uppercase fw-bold "><small>Camera matrimoniale o doppia deluxe</small></p>
                     <p class="ps-lg-4">
                         La stanza "Cassiopea", che si estende su 21 metri quadrati, prende il nome dalla costellazione
                         di Cassiopea, regina d'Etiopia.
@@ -17,104 +18,160 @@
                     </p>
                 </div>
             </div>
-
-            <div class="col-12 col-lg-6 px-0 d-none d-lg-block">
-            </div>
-
-
+            <div class="col-12 col-lg-6 px-0 d-none d-lg-block"></div>
         </div>
-
-        <div class="row bg-img py-5">
+        {{-- button --}}
+        <div class="row py-5">
             <div class="col-12 text-center">
-                <button class="availability-btn">Verifica la disponibilità</button>
+                <a class="availability-btn Roboto" href="{{route('book_now')}}" target="blank">Verifica la disponibilità</a>
             </div>
         </div>
-
-        <div class="row py-5 section-image d-flex justify-content-center align-items-center">
-            <div class="col-12 col-md-4 d-flex justify-content-center">
-                <div class="">
+        {{-- faq e services --}}
+        <div class="row py-5 section-image d-flex justify-content-around">
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="room-card">
                     <h4 class="fw-bold mb-4">F.A.Q.</h4>
-                    <div>
-                        <div class="accordion " id="faqAccordion">
-                            <div class="accordion-item">
-                                <p class="accordion-header " id="headingOne">
-                                    <button class="accordion-button custom-accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        <i class="bi bi-chevron-down me-3"></i>AMBIENTE FRESCO E PULITO
-                                    </button>
-                                </p>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p><small>To maintain cleanliness and purity of the air, smoking is strictly
-                                                prohibited in all areas, including the rooms. We reserve the right to
-                                                charge an additional cleaning fee of €150 if smoking occurs in the
-                                                room.</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <p class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button custom-accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        <i class="bi bi-chevron-down me-3"></i>SERVIZIO DI PULIZIA
-                                    </button>
-                                </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <p class="accordion-header" id="headingThree">
-                                    <button class="accordion-button custom-accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        <i class="bi bi-chevron-down me-3"></i>COLAZIONE
-                                    </button>
-                                </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
 
-                                    </div>
+                    <div class="accordion">
+                        <article>
+                            <div>
+                                <input id="article1" type="checkbox">
+                                <label for="article1">
+                                    <i class="bi bi-chevron-down"></i>
+                                    Title 1
+                                </label>
+                                <div>
+                                    Content for section 1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <p class="accordion-header" id="headingFour">
-                                    <button class="accordion-button custom-accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        <i class="bi bi-chevron-down me-3"></i>EXTRA
-                                    </button>
-                                </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                    </div>
+                        </article>
+                    
+                        <article>
+                            <div>
+                                <input id="article2" type="checkbox">
+                                <label for="article2">
+                                    <i class="bi bi-chevron-down"></i>
+                                    Title 2
+                                </label>
+                                <div>
+                                    Content for section 2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
                             </div>
-                        </div>
+                        </article>
+                    
+                        <article>
+                            <div>
+                                <input id="article3" type="checkbox">
+                                <label for="article3">
+                                    <i class="bi bi-chevron-down"></i>
+                                    Title 3
+                                </label>
+                                <div>
+                                    Content for section 3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </article>
+                    
+                        <article>
+                            <div>
+                                <input id="article4" type="checkbox">
+                                <label for="article4">
+                                    <i class="bi bi-chevron-down"></i>
+                                    Title 4
+                                </label>
+                                <div>
+                                    Content for section 4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </article>
                     </div>
+                    
+
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 d-flex justify-content-center">
-                <div class="services-section">
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="">
                     <h4 class="fw-bold mb-4">Servizi & Dotazioni</h4>
-                    <ul class="list-unstyled ps-0">
-                        <li class="pb-3"><i class="fas fa-wifi me-3"></i> WIFI GRATUITO</li>
-                        <li class="pb-3"><i class="fas fa-ban me-3"></i> CAMERA NON FUMATORI</li>
-                        <li class="pb-3"><i class="fas fa-tv me-3"></i> SMART TV</li>
-                        <li class="pb-3"><i class="fas fa-bed me-3"></i> LETTO KING SIZE O 2 LETTI SINGOLI LARGE</li>
-                        <li class="pb-3"><i class="fas fa-shower me-3"></i> DOCCIA</li>
-                        <li class="pb-3"><i class="fas fa-tshirt me-3"></i> GUARDAROBA</li>
-
+                    <ul class="list-unstyled ps-0 Roboto">
+                        <li class="pb-4"><i class="fas fa-wifi me-4"></i> WIFI GRATUITO</li>
+                        <li class="pb-4"><i class="fas fa-ban me-4"></i> CAMERA NON FUMATORI</li>
+                        <li class="pb-4"><i class="fas fa-tv me-4"></i> SMART TV</li>
+                        <li class="pb-4"><i class="fas fa-bed me-4"></i> LETTO KING SIZE O 2 LETTI SINGOLI LARGE</li>
+                        <li class="pb-4"><i class="fas fa-shower me-4"></i> DOCCIA</li>
+                        <li class="pb-4"><i class="fas fa-tshirt me-4"></i> GUARDAROBA</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        {{-- galleria --}}
+        <div class="row py-5 px-5 gallery" >
+            <div class="col-12 text-center">
+                <h1 class="fw-bold mb-4 text-dark">Galleria</h1>
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9831.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9838.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9845.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9851.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9853.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9858.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9868.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9882.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9885.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9890.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9902.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9905.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9909.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9915.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9916.jpg') }}" alt="Img 1"
+                    class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-3 my-2">
+                <img src="{{ asset('storage/rooms_page/cassiopea/BRG_9921.jpg') }}" alt="Img 1"
+                    class="img-fluid">
             </div>
         </div>
     </div>

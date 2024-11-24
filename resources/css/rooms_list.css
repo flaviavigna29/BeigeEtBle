@@ -1,24 +1,23 @@
 .rooms-section {
     padding: 50px 0;
-    background-image: url(../../storage/app/public/contact-us_page/bg_contact.png);
     height: 100%;
     overflow-x: hidden;
-    font-family: "Playfair Display", serif;
 }
 .rooms-section h1 {
     color: rgba(170, 128, 44);
     font-size: 45px;
 }
 
-.rooms-section .card {
+.rooms-section .card,
+.modal-content {
     background-color: rgba(170, 128, 44, .8);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
 
-.rooms-section .card h2, 
-.modal h5{
+.rooms-section .card h3, 
+.modal h3{
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -27,10 +26,9 @@
     color: var(--color-blue);
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: italic;
-}
+} 
 
 .rooms-section .card h5 i {
     font-size: 11px;
@@ -45,7 +43,8 @@
     font-size: 14px;
 }
 
-.rooms-section a {
+.rooms-section a,
+.modal-content a {
     display: inline-block;
     font-size: 18px;
     font-weight: bold;
@@ -54,7 +53,8 @@
     transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-.rooms-section a:hover {
+.rooms-section a:hover,
+.modal-content a:hover {
     transform: scale(1.1);
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -68,6 +68,7 @@
     color: #3b535d; 
     z-index: 9;
 }
+
 .info-icon:hover {
     color: var(--color-ocra-B);
 }
@@ -77,14 +78,6 @@
     height: 15px;
     background-color: var(--color-blue);
     border-radius: 8px;
-}
-
-.modal-content {
-    font-family: "Playfair Display", serif;
-    background-color: rgba(170, 128, 44, .7);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
-    width: 100%;
 }
 
 .modal {
