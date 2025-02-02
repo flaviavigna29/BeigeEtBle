@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const section = document.querySelector('.section-2');
     let currentIndex = 0;
     
-    // Oggetto con i percorsi delle immagini
     const roomImages = [
         '/storage/home_page/hydra.jpg',
         '/storage/home_page/aries.jpg',
@@ -11,11 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
         '/storage/home_page/cassiopea.jpg'
     ];
 
-    // Funzione per aggiornare il background e l'elemento attivo
     function updateBackground() {
-        // Rimuovi active da tutti
         roomTitles.forEach(t => t.classList.remove('active'));
-        // Aggiungi active all'elemento corrente
         roomTitles[currentIndex].classList.add('active');
         
         // Aggiorna il background
@@ -25,9 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         currentIndex = (currentIndex + 1) % roomImages.length;
     }
 
-    // Imposta l'intervallo per il cambio automatico
-    setInterval(updateBackground, 6500); // Cambia ogni 4 secondi
+    setInterval(updateBackground, 6500); 
 
-    // Esegui immediatamente per il primo caricamento
     updateBackground();
 });

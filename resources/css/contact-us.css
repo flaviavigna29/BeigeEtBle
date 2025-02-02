@@ -36,7 +36,8 @@
 
 .contact-section input,
 .contact-section textarea,
-.contact-section select {
+.contact-section select,
+#flash-message {
     background-color: var(--color-beige);
     border-color: var(--color-ocra-A);
     color: var(--color-blue);
