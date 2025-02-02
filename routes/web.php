@@ -9,6 +9,9 @@ Route::get('/', [PublicController::class, 'homepage']) ->name('homepage');
 Route::get('rooms', [PublicController::class, 'rooms']) ->name('rooms');
 
 Route::get('cassiopea', [PublicController::class, 'cassiopea']) ->name('cassiopea');
+Route::get('aries', [PublicController::class, 'aries']) ->name('aries');
+Route::get('orione', [PublicController::class, 'orione']) ->name('orione');
+Route::get('hydra', [PublicController::class, 'hydra']) ->name('hydra');
 
 Route::get('contact_us', [PublicController::class, 'contact_us']) ->name('contact_us');
 

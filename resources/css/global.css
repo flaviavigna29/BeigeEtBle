@@ -22,7 +22,6 @@
     font-family: "Syncopate", sans-serif;
 }
 
-
 .border-ocra-B {
     border-bottom: solid 1px var(--color-ocra-B);
 }
@@ -87,9 +86,10 @@ nav {
     .navbar {
         min-height: 80px;
     }
-    .navbar-brand, .navbar-toggler {
+    .navbar-brand,
+    .navbar-toggler {
         display: flex;
-        align-items: center; 
+        align-items: center;
     }
 }
 
@@ -124,4 +124,55 @@ footer a {
     padding: 9px;
     background-color: #404040;
     color: #c6c6c7;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-blue);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #656565;
+}
+
+@media (min-width: 1700px) {
+    .rooms-section {
+        height: 75vh;
+    }
+    .header-image-hydra,
+    .header-image-aries,
+    .header-image-cassiopea,
+    .header-image-orione {
+        height: 75vh;
+    }
+    .section-image-hydra,
+    .section-image-aries,
+    .section-image-orione,
+    .section-image-cassiopea {
+        min-height: 35vh;
+    }
+    .home-section .section-1,
+    .home-section .section-4,
+    .home-section .section-2,
+    .home-section .section-3 {
+        min-height: 50vh;
+    }
+    .home-section header {
+        min-height: 80vh;
+    }
+    .home-section .card_home {
+        width: 650px !important;
+        max-width: 650px !important;
+        min-width: 650px !important;
+    }
+    .home-section .section-5 {
+        min-height: auto; 
+    }
+    .home-section {
+         padding: 0;
+    }
 }

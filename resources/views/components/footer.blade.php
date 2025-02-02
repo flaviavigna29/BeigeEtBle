@@ -20,13 +20,13 @@
             </div>
             <div class="d-none d-lg-block col-lg-2">
                 <h5 class="pt-2 pt-lg-5">
-                    <square class="pe-1">[</square>Pages<square class="ps-1">]</square>
+                    <square class="pe-1">[</square>{{ __("ui.pages") }}<square class="ps-1">]</square>
                 </h5>
                 <ul class="list-unstyled pt-4">
-                    <li><a href="#"><i class="fa-solid fa-greater-than pe-1 py-2"></i>Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-greater-than pe-1 py-2"></i>Rooms</a></li>
-                    <li><a href="#"><i class="fa-solid fa-greater-than pe-1 py-2"></i>Contact Us</a></li>
-                    <li><a href="#"><i class="fa-solid fa-greater-than pe-1 py-2"></i>Booking Now!</a></li>
+                    <li><a href="{{ route('homepage') }}"><i class="fa-solid fa-greater-than pe-1 py-2"></i>Home</a></li>
+                    <li><a href="{{ route('rooms') }}"><i class="fa-solid fa-greater-than pe-1 py-2"></i>{{ __("ui.rooms") }}</a></li>
+                    <li><a href="{{ route('contact_us') }}"><i class="fa-solid fa-greater-than pe-1 py-2"></i>{{ __("ui.contact") }} </a></li>
+                    <li><a href="{{ route('book_now') }}"><i class="fa-solid fa-greater-than pe-1 py-2"></i>{{ __("ui.book") }}</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-5 col-lg-2 text-center text-lg-start pb-3 pb-lg-0">
@@ -47,8 +47,7 @@
         </div>
     </div>
     <div class="container-fluid bg-dark py-0 text-center">
-        <p class="py-2 m-0 copyright">Copyright <y id="copyright-year"></y> - BEIGE ET BLE' GUESTHOUSE di beigeetble. Tutti i diritti
-            riservati.</p>
+        <p class="py-2 m-0 copyright">Copyright <y id="copyright-year"></y> - BEIGE ET BLE' Guesthouse. {{ __("ui.copyright") }}</p>
     </div>
 
     <script>

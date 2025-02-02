@@ -2,6 +2,7 @@
     height: 100%;
     overflow-x: hidden;
 }
+
 .home-section .section2 .col-12,
 .home-section .section3 .col-12,
 .home-section .section4 .col-12,
@@ -11,6 +12,7 @@
     padding: 20px;
     justify-content: center;
 }
+
 .home-section .section-1 {
     background-color: var(--color-blue);
     color: var(--color-beige);
@@ -19,6 +21,7 @@
     justify-content: center;
     min-height: 85vh;
 }
+
 .home-section .section-2 {
     width: 100%;
     min-height: 85vh;
@@ -30,10 +33,22 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-    url(../../storage/app/public/home_page/rooms.jpg);
+        url(../../storage/app/public/home_page/rooms.jpg);
     padding: 50px 0;
+    transition: background-image 0.5s ease-in-out;
 }
-.home-section .section-5{
+
+.home-section .section-2 h5 {
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.home-section .section-2 h5.active a,
+.home-section .section-2 h5:hover a {
+    color: var(--color-blue) !important;
+}
+
+.home-section .section-5 {
     background-color: var(--color-blue);
     padding: 50px 0;
     display: flex;
@@ -41,6 +56,7 @@
     align-items: center;
     min-height: 70vh;
 }
+
 .home-section .section-4 {
     width: 100%;
     min-height: 85vh;
@@ -52,9 +68,10 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-    url(../../storage/app/public/home_page/breackfast.jpg);
+        url(../../storage/app/public/home_page/breackfast.jpg);
     padding: 50px 0;
 }
+
 .home-section .section-3 {
     background-color: var(--color-beige);
     padding: 50px 0;
@@ -63,10 +80,11 @@
     align-items: center;
     min-height: 85vh;
 }
+
 /* Header */
 .home-section header {
     width: 100%;
-    min-height: 65vh;
+    min-height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,6 +97,7 @@
         url(../../storage/app/public/home_page/header.jpg);
     padding: 50px 0;
 }
+
 .home-section header h1 {
     color: #d9a13b;
     text-transform: uppercase;
@@ -87,10 +106,12 @@
     font-size: 45px;
     font-style: italic;
 }
+
 .home-section header m {
     font-size: 55px;
     color: var(--color-orange);
 }
+
 .home-section header h6 {
     font-size: 14px;
     text-transform: uppercase;
@@ -98,24 +119,29 @@
     font-weight: 600;
     font-style: normal;
 }
+
 .home-section header a {
     letter-spacing: 2px;
     font-weight: 700;
     font-style: normal;
     color: var(--color-orange);
 }
+
 .home-section header a:hover {
     color: var(--color-ocra-A);
 }
+
 .home-section header h3 {
     color: var(--color-orange);
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 30px;
 }
+
 .home-section header n {
     font-size: 35px;
 }
+
 @media (max-width: 576px) {
     .home-section header h1 {
         font-size: 35px;
@@ -131,9 +157,10 @@
     }
     .home-section header h5 {
         font-size: 15px;
-        padding:0px 55px ;
+        padding: 0px 55px;
     }
 }
+
 /* classi varie sections */
 .home-section .section-1 .col-12 {
     display: flex;
@@ -142,9 +169,9 @@
     margin: 0px !important;
     width: 600px;
 }
+
 .section-1 .col-12 p:first-of-type::first-letter {
     font-size: 3.5rem;
-    /* font-weight: bold; */
     color: var(--color-orange);
     float: left;
     margin-right: 10px;
@@ -152,32 +179,39 @@
     font-style: italic;
     font-family: "Playfair Display", serif;
 }
+
 .section-1 p {
     font-size: 1rem;
     line-height: 2;
     text-align: justify;
     font-family: "Roboto", sans-serif;
 }
+
 .home-section h2,
 .home-section a {
     margin-bottom: 5px;
     font-weight: bold;
     color: #474b57;
 }
+
 .home-section .card_home {
     background-color: var(--color-orange);
     border-radius: 8px;
     min-width: 100% !important;
 }
+
 .home-section .card_home h5,
 .home-section .card_home h5 a {
     font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.6);
 }
-.home-section .card_home h5 a:hover {
-    color: #474b57;
+
+.home-section .card_home h5 a:hover,
+.home-section .card_home h5:active {
+    color: #474b57!important;
 }
+
 .home-section .card_home p,
 .home-section .card_transparent p {
     font-size: 14px;
@@ -187,27 +221,32 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
+
 .home-section .card_transparent {
     min-width: 100% !important;
 }
+
 .rounded-custom {
-    /* carosello */
     border-radius: 15px;
     overflow: hidden;
 }
+
 #carouselExampleSlidesOnly .carousel-inner img {
     object-fit: cover;
     width: 100%;
 }
+
 @media screen and (min-width: 2560px) {
     .home-section {
         padding: 100px 0;
     }
 }
+
 .section-5 .services-list {
     list-style: none;
     padding-left: 0;
 }
+
 .section-5 .services-list li {
     font-size: 15px;
     margin-bottom: 8px;
@@ -215,11 +254,12 @@
     margin-right: 15px;
     color: var(--color-ocra-A);
 }
+
 .section-5 .services-list i {
     margin-right: 5px;
     color: var(--color-ocra-B);
-
 }
+
 .section-5 .image-wrapper {
     position: relative;
     width: 100%;
@@ -227,6 +267,7 @@
     overflow: hidden;
     display: flex;
 }
+
 .section-5 .image-wrapper img {
     width: 100%;
     height: 100%;

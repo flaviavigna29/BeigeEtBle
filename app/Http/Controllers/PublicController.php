@@ -20,9 +20,21 @@ class PublicController extends Controller
 
     public function cassiopea()
     {
-        return view('cassiopea');
+        return view('../rooms/cassiopea');
     }
 
+    public function hydra()
+    {
+        return view('../rooms/hydra');
+    }
+    public function aries()
+    {
+        return view('../rooms/aries');
+    }
+    public function orione()
+    {
+        return view('../rooms/orione');
+    }
     public function contact_us()
     {
         return view('contact-us');
