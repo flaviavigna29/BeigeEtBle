@@ -86,51 +86,39 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide rounded-custom" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_architecture-g585e983d9_1920.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_1.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_colosseo-1-scaled.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_2.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_Du5ukD2WkAAsKH8.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_3.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_gabriella-clare-marino-TLYzsNu8md0-unsplash-scaled.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_4.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_gloria-cretu-iek_zWEB0Fw-unsplash-scaled.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_5.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_marco-chilese-vnv6nKdtqLc-unsplash-scaled.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_6.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_moor-fountain-g57c291def_1920.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_7.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_Piazza_Navona-1.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_8.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_rome-g71d83d54e_1920.jpg') }}"
-                                class="d-block rounded-custom" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_rome-g471fd51fd_1920.jpg') }}"
-                                class="d-block rounded-custom" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_rome-ge82fde2ce_1920.jpg') }}"
-                                class="d-block rounded-custom" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset('storage/home_page/carousel/thumbs_trevi-scaled.jpg') }}"
+                            <img src="{{ asset('storage/home_page/carousel/carousel_9.jpg') }}"
                                 class="d-block rounded-custom" alt="...">
                         </div>
                     </div>

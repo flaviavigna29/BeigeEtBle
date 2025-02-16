@@ -25,7 +25,6 @@
 .Lora {
     font-family: var(--font-lora);
 }
-
 .Roboto {
     font-family: var(--font-roboto);
 }
@@ -67,17 +66,17 @@ nav {
     font-family: var(--font-primary);
     font-weight: bold;
     height: 60px;
-    background-color: #656565 !important;
+    background-color: var(--color-dark-grey) !important;
 }
 .nav-link {
-    color: rgba(191, 191, 191, 0.85) !important;
+    color: var(--color-light-grey) !important;
 }
 .nav-link:hover {
     color: var(--color-ocra-A) !important;
     border-bottom: 1px solid var(--color-ocra-A);
 }
 .navbar-collapse {
-    background-color: #656565;
+    background-color: var(--color-dark-grey);
 }
 .navbar-collapse .nav-link {
     margin: 0;
@@ -98,7 +97,7 @@ nav {
 
 /* Settings Footer */
 footer {
-    background-color: #282828;
+    background-color: var(--color-darker-grey);
     color: white;
 }
 footer h5 {
@@ -139,7 +138,7 @@ footer a {
 }
 
 ::-webkit-scrollbar-track {
-    background: #656565;
+    background: var(--color-dark-grey);
 }
 
 div #cookieSettings.offcanvas {
@@ -166,7 +165,7 @@ div#cookie-banner-simple button#accept-all-simple {
     border: none;
 }
 div#cookie-banner-simple {
-    background-color: #656565 !important;
+    background-color: var(--color-dark-grey) !important;
 }
 
 button#reject-all {
@@ -514,14 +513,14 @@ label {
 .contact-section h4 {
     display: block;
     font-size: 28px;
-    font-family: "Playfair Display", serif;
+    font-family: var(--font-playfair);
     color: white;
     letter-spacing: 1px;
 }
 
 .contact-section h6 {
     display: block;
-    font-family: "Playfair Display", serif;
+    font-family: var(--font-playfair);
     color: white;
     letter-spacing: 1px;
 }
@@ -690,7 +689,7 @@ label {
 }
 
 .home-section header h1 {
-    color: #d9a13b;
+    color: var(--color-gold);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bold;
@@ -749,14 +748,14 @@ label {
     margin-right: 10px;
     line-height: 1;
     font-style: italic;
-    font-family: "Playfair Display", serif;
+    font-family: var(--font-playfair);
 }
 
 .section-1 p {
     font-size: 1rem;
     line-height: 2;
     text-align: justify;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
 }
 
 .home-section h2,
@@ -790,7 +789,7 @@ label {
     color: #474b57;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     font-weight: 300;
 }
 
