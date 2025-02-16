@@ -34,13 +34,13 @@
                     <square class="pe-1">[</square>Social Media<square class="ps-1">]</square>
                 </h5>
                 <ul class="list-inline m-0 pt-4 pb-2">
-                    <li class="list-inline-item "><a href="https://www.facebook.com/beigeetble"><i
+                    <li class="list-inline-item "><a href="https://www.facebook.com/beigeetble" target="_blank"><i
                                 class="fab fa-facebook icon_footer fs-6"></i></a></li>
-                    <li class="list-inline-item"><a href="https://wa.me/+393335276953"><i
+                    <li class="list-inline-item"><a href="https://wa.me/393335276953" target="_blank"><i
                                 class="fab fa-whatsapp icon_footer fs-6"></i></a></li>
-                    <li class="list-inline-item"><a href="https://t.me/beigeetble"><i
+                    <li class="list-inline-item"><a href="https://t.me/beigeetble" target="_blank"><i
                                 class="fa-brands fa-telegram icon_footer fs-6"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/beigeetble_guesthouse/"><i
+                    <li class="list-inline-item"><a href="https://www.instagram.com/beigeetble_guesthouse/" target="_blank"><i
                                 class="fab fa-instagram icon_footer fs-6"></i></a></li>
                 </ul>
             </div>

@@ -1,11 +1,13 @@
 <?php
 return [
     //! navbar/footer
-    'pages'=> 'PAGES',
+    'pages' => 'PAGES',
     'rooms' => 'Rooms',
     'contact' => 'Contact Us',
     'book' => 'Book Now!',
     'copyright' => 'All rights reserved.',
+
+    'booking_iframe_url' => 'https://wubook.net/nneb/bk?f=today&n=1&ep=efc18e89&lang=en&o=2.0.0.0',
 
     //! home
     // header
@@ -14,15 +16,15 @@ return [
     'home_header_text_3' => 'Book a room',
     // paragrafo 1
     'home_intro_text_1' => 'In the <b>vibrant heart of Rome</b>, the elegant and welcoming Beige et Ble\' GuestHouse boasts a privileged location just a short distance from the main <b>religious sites</b>, <b>business centers</b>, and the most famous <b>tourist attractions</b> of the city.',
-    
+
     'home_intro_text_2' => 'The property is situated within an imposing <b>18th-century</b> noble residence overlooking the <b>Italian parliament</b>.',
-    
+
     'home_intro_text_3' => 'The convenience of the location is guaranteed by the proximity to the <b>subway stop</b> and the ease with which the main <b>railway stations</b> and <b>airports</b> can be reached.',
-    
+
     'home_intro_text_4' => 'Each room is equipped with a <strong>private bathroom</strong>, air conditioning, a 32-inch Smart TV, free high-speed Wi-Fi, a safety deposit box, heating, and a hairdryer. Guests can enjoy optimal rest on our <strong>King</strong> and <strong>Queen size beds</strong>.',
-    
+
     'home_intro_text_5' => 'We offer our guests a <strong>daily cleaning service</strong> and <strong>towel change</strong> during their stay to ensure a fresh and clean environment.',
-    
+
     'home_intro_text_6' => 'In the common area, guests can find a <strong>coffee</strong> machine and accessories to prepare <strong>tea</strong> or a <strong>hot beverage</strong>, perfect for relaxing after a day exploring the wonders of Rome!',
     // paragrafo 2
     'home_rooms_title' => 'Rooms & Suites',
@@ -58,13 +60,151 @@ return [
     'home_luggage' => 'Luggage Storage',
     'home_shuttle' => 'Airport/Station Shuttle Service',
 
+    //! cookie banner
+    'cookie_banner_title' => 'Cookie Settings',
+    'cookie_banner_text' => 'This website uses cookies to improve your browsing experience.',
+    'cookie_banner_learn_more' => 'Learn more',
+    'cookie_banner_accept_all' => 'Accept all',
+    'cookie_banner_reject_all' => 'Reject unnecessary cookies',
+    'cookie_banner_main_description' => 'BeigeEtBle Guesthouse uses cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.',
+    'cookie_banner_necessary_info' => 'Cookies categorized as "Necessary" are stored in your browser as they are essential to enable the basic functionalities of the website.',
+    'cookie_banner_third_party_info' => 'We also use third-party cookies that help us analyze how you use this website, store your preferences, and provide you with relevant content and advertising. These cookies will only be stored in your browser with your consent.',
+    'cookie_banner_impact_notice' => 'You can choose to enable or disable some or all of these cookies, but disabling some of them may impact your browser experience.',
+    'cookie_necessary_title' => 'Necessary cookies (always active)',
+    'cookie_necessary_description' => 'Necessary cookies are essential for the basic functions of the website and the website will not work as intended without them. These cookies do not store any personally identifiable information.',
+    'cookie_functional_title' => 'Functional Cookies',
+    'cookie_functional_description' => 'Functional cookies help perform certain functionalities like sharing the website\'s content on social media platforms, collecting feedback, and other third-party features.',
+    'cookie_analytics_title' => 'Analytics Cookies',
+    'cookie_analytics_description' => 'Analytics cookies are used to understand how visitors interact with the website. These cookies help provide information about metrics such as number of visitors, bounce rate, traffic source, etc.',
+    'cookie_advertising_title' => 'Advertising Cookies',
+    'cookie_advertising_description' => 'Advertising cookies are used to provide visitors with customized advertisements based on the pages they visited previously and analyze the effectiveness of the advertising campaign.',
+    'cookie_privacy_notice' => 'For more information, please consult our',
+    'cookie_privacy_link' => 'Privacy Policy',
 
+    //! privacy 
+    'privacy_main_title' => 'Privacy Policy and Cookie Policy',
+    'privacy_info_title' => 'Information on Personal Data Processing',
+    'privacy_info_text' => 'This information is provided pursuant to Art. 13 of EU Regulation 2016/679 (GDPR - General Data Protection Regulation) and Legislative Decree 196/2003 as amended by Legislative Decree 101/2018 (Personal Data Protection Code).',
 
+    'privacy_framework_title' => 'Regulatory Framework of Reference',
+    'privacy_framework_gdpr' => '<strong>EU Regulation 2016/679 (GDPR)</strong>: European regulation on personal data protection, in force since May 25, 2018',
+    'privacy_framework_196' => '<strong>Legislative Decree 196/2003</strong>: Personal Data Protection Code',
+    'privacy_framework_101' => '<strong>Legislative Decree 101/2018</strong>: Provisions for adapting national legislation to GDPR',
+    'privacy_framework_directive' => '<strong>Directive 2002/58/EC</strong>: regulation on the processing of personal data in the electronic communications sector',
+    'privacy_framework_garante' => '<strong>Privacy Authority Provisions</strong>: in particular the Guidelines on cookies and other tracking tools of June 10, 2021',
 
+    'privacy_controller_title' => 'Data Controller',
+    'privacy_controller_info' => 'The Data Controller is BeigeEtBle Guesthouse, located at Via degli Uffici del Vicario, 33, 00186, Rome - Italy.',
+    'privacy_controller_definition' => 'According to Art. 4 GDPR, "data controller" means the natural or legal person who, alone or jointly with others, determines the purposes and means of the processing of personal data.',
 
+    'privacy_definitions_title' => 'Definitions under Art. 4 GDPR',
+    'privacy_def_personal_data' => '<strong>Personal data</strong>: any information relating to an identified or identifiable natural person',
+    'privacy_def_processing' => '<strong>Processing</strong>: any operation or set of operations performed on personal data',
+    'privacy_def_profiling' => '<strong>Profiling</strong>: any form of automated processing of personal data to evaluate certain personal aspects',
+    'privacy_def_subject' => '<strong>Data subject</strong>: the natural person to whom the personal data refers',
 
+    'privacy_principles_title' => 'Applicable Principles to Processing (Art. 5 GDPR)',
+    'privacy_principles_intro' => 'The processing of personal data is based on the following principles:',
+    'privacy_principle_1' => '<strong>Lawfulness, fairness, and transparency</strong>: data is processed lawfully, fairly, and transparently',
+    'privacy_principle_2' => '<strong>Purpose limitation</strong>: data is collected for specified, explicit, and legitimate purposes',
+    'privacy_principle_3' => '<strong>Data minimization</strong>: data is adequate, relevant, and limited to what is necessary',
+    'privacy_principle_4' => '<strong>Accuracy</strong>: data is accurate and, where necessary, kept up to date',
+    'privacy_principle_5' => '<strong>Storage limitation</strong>: data is kept for no longer than necessary',
+    'privacy_principle_6' => '<strong>Integrity and confidentiality</strong>: data is processed in a way that ensures appropriate security',
 
+    'privacy_data_types_title' => 'Types of Data Processed',
+    'privacy_navigation_data_title' => 'Navigation Data',
+    'privacy_navigation_data_intro' => 'During website navigation, we collect:',
+    'privacy_navigation_data_1' => 'IP addresses',
+    'privacy_navigation_data_2' => 'Domain names of computers used',
+    'privacy_navigation_data_3' => 'URI/URL addresses of requested resources',
+    'privacy_navigation_data_4' => 'Time and date of requests',
+    'privacy_navigation_data_5' => 'Method used to submit the request to the server',
+    'privacy_navigation_data_6' => 'Size of the file received in response',
+    'privacy_navigation_data_7' => 'Server numeric code',
+    'privacy_navigation_data_8' => 'Other parameters related to the user\'s operating system and browser',
 
+    'privacy_voluntary_data_title' => 'Voluntarily Provided Data',
+    'privacy_voluntary_data_intro' => 'We process the following data voluntarily provided during booking or contact:',
+    'privacy_voluntary_data_1' => 'Personal information',
+    'privacy_voluntary_data_2' => 'Contact details',
+    'privacy_voluntary_data_3' => 'Booking information',
+    'privacy_voluntary_data_4' => 'Other information voluntarily provided by the user',
+
+    'privacy_purposes_title' => 'Purposes and Legal Basis of Processing',
+    'privacy_purposes_intro' => 'Personal data is processed to:',
+    'privacy_purpose_1' => 'Manage bookings and requested services (<strong>Legal basis: contract execution - Art. 6.1.b GDPR</strong>)',
+    'privacy_purpose_2' => 'Comply with legal obligations, including fiscal and public security requirements (<strong>Legal basis: legal obligation - Art. 6.1.c GDPR</strong>)',
+    'privacy_purpose_3' => 'Respond to information requests (<strong>Legal basis: pre-contractual measures - Art. 6.1.b GDPR</strong>)',
+    'privacy_purpose_4' => 'Send service communications (<strong>Legal basis: legitimate interest - Art. 6.1.f GDPR</strong>)',
+    'privacy_purpose_5' => 'Analyze website usage to improve functionality (<strong>Legal basis: legitimate interest - Art. 6.1.f GDPR</strong>)',
+    'privacy_purpose_6' => 'Prevent and detect fraudulent activities (<strong>Legal basis: legitimate interest - Art. 6.1.f GDPR</strong>)',
+
+    'privacy_cookie_title' => 'What are cookies',
+    'privacy_cookie_description' => 'Cookies are small text files that websites send to the user\'s device, where they are stored to be retransmitted to the same sites on subsequent visits.',
+
+    'privacy_cookie_types_title' => 'Types of cookies used',
+    'privacy_cookie_technical_title' => '<strong>Technical cookies (necessary)</strong>:',
+    'privacy_cookie_technical_1' => 'Are essential for website operation',
+    'privacy_cookie_technical_2' => 'Enable normal navigation and use of the website',
+    'privacy_cookie_technical_3' => 'Cannot be deactivated',
+
+    'privacy_cookie_analytics_title' => '<strong>Analytics cookies</strong>:',
+    'privacy_cookie_analytics_1' => 'We use Google Analytics with anonymized IP',
+    'privacy_cookie_analytics_2' => 'Used to collect statistical information about website usage',
+    'privacy_cookie_analytics_3' => 'Can be disabled through cookie settings',
+
+    'privacy_cookie_functional_title' => '<strong>Functional cookies</strong>:',
+    'privacy_cookie_functional_1' => 'Allow saving user preferences (e.g., language)',
+    'privacy_cookie_functional_2' => 'Improve browsing experience',
+    'privacy_cookie_functional_3' => 'Can be disabled through cookie settings',
+
+    'privacy_cookie_management_title' => 'Cookie Management',
+    'privacy_cookie_management_intro' => 'Users can manage cookie preferences through:',
+    'privacy_cookie_management_1' => 'The cookie banner shown on first visit',
+    'privacy_cookie_management_2' => 'Their browser settings',
+    'privacy_cookie_management_3' => 'Tools provided by third parties (e.g., Google Analytics opt-out)',
+
+    'privacy_retention_title' => 'Retention Period',
+    'privacy_retention_intro' => 'Personal data will be retained for:',
+    'privacy_retention_1' => '<strong>Booking data</strong>: 10 years for fiscal obligations (Art. 2220 Civil Code)',
+    'privacy_retention_2' => '<strong>Contact data</strong>: 2 years from last contact',
+    'privacy_retention_3' => '<strong>Navigation data</strong>: 7 days',
+    'privacy_retention_4' => '<strong>Technical cookies</strong>: session duration',
+    'privacy_retention_5' => '<strong>Analytics and functional cookies</strong>: maximum 12 months',
+
+    'privacy_recipients_title' => 'Data Recipients',
+    'privacy_recipients_intro' => 'Personal data may be communicated to:',
+    'privacy_recipient_1' => 'Authorized personnel of the Controller',
+    'privacy_recipient_2' => 'Technical and IT service providers',
+    'privacy_recipient_3' => 'Public authorities when required by law',
+    'privacy_recipient_4' => 'Other subjects when necessary for contract execution',
+
+    'privacy_transfer_title' => 'International Data Transfer',
+    'privacy_transfer_intro' => 'According to Articles 44-50 of GDPR, personal data transfer to third countries can only occur if:',
+    'privacy_transfer_1' => 'The European Commission has decided that the third country ensures an adequate level of protection',
+    'privacy_transfer_2' => 'Adequate safeguards are provided and enforceable data subject rights are available',
+    'privacy_transfer_3' => 'One of the specific derogations provided by Art. 49 GDPR applies',
+
+    'privacy_rights_title' => 'Data Subject Rights',
+    'privacy_rights_intro' => 'Under Articles 15-22 of GDPR, the data subject has the right to:',
+    'privacy_right_1' => '<strong>Access (Art. 15)</strong>: obtain confirmation of processing and access their data',
+    'privacy_right_2' => '<strong>Rectification (Art. 16)</strong>: obtain correction of inaccurate data or completion of incomplete data',
+    'privacy_right_3' => '<strong>Erasure (Art. 17)</strong>: obtain erasure of data in cases provided by GDPR',
+    'privacy_right_4' => '<strong>Restriction (Art. 18)</strong>: obtain restriction of processing in cases provided by GDPR',
+    'privacy_right_5' => '<strong>Portability (Art. 20)</strong>: receive data in a structured format and transmit it to another controller',
+    'privacy_right_6' => '<strong>Opposition (Art. 21)</strong>: object to data processing in cases provided by GDPR',
+    'privacy_right_7' => '<strong>Automated process (Art. 22)</strong>: not be subject to automated decision-making',
+
+    'privacy_security_title' => 'Security',
+    'privacy_security_intro' => 'We adopt appropriate technical and organizational security measures to protect personal data from:',
+    'privacy_security_1' => 'Unauthorized access',
+    'privacy_security_2' => 'Accidental or unlawful alteration',
+    'privacy_security_3' => 'Accidental loss',
+    'privacy_security_4' => 'Processing not compliant with collection purposes',
+
+    'privacy_complaint_title' => 'Complaint to Supervisory Authority',
+    'privacy_complaint_text' => 'Pursuant to Art. 77 GDPR, the data subject has the right to lodge a complaint with the competent supervisory authority (in Italy, the Data Protection Authority) if they consider that the processing of their personal data violates the GDPR.',
 
     //! contact us
     'contact_us' => 'Contact Us',
@@ -102,6 +242,7 @@ return [
     'room_desc_cassiopea' => 'Deluxe Twin or Double Room',
 
     'our_services' => 'Our Services',
+
     // services
     'service_air_conditioning' => 'Air conditioning',
     'service_essentials' => 'Essentials',
@@ -149,7 +290,6 @@ return [
     'service_safe_box' => 'Safe Deposit Box',
     'service_no_pets' => 'Pet not allowed',
     'service_no_smoking' => 'Non-smoking',
-
 
     // Hydra
     'room_desc_hydra_sm' => 'The HYDRA room, inspired by the mysterious Water Snake, offers a peaceful and serene retreat. Its main feature is the harmonious combination of colors and fabrics that evoke the water element,...',
@@ -220,6 +360,4 @@ return [
     'room_wardrobe' => 'WARDROBE',
     'room_gallery' => 'Gallery',
     'room_availability' => 'Check availability'
-
-
 ];

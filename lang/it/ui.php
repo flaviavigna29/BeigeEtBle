@@ -1,11 +1,13 @@
 <?php
 return [
     //! navbar/footer
-    'pages'=> 'PAGINE',
+    'pages' => 'PAGINE',
     'rooms' => 'Camere',
     'contact' => 'Contattaci',
     'book' => 'Prenota ora!',
     'copyright' => 'Tutti i diritti riservati.',
+
+    'booking_iframe_url' => 'https://wubook.net/nneb/bk?f=today&n=1&ep=efc18e89&lang=it&o=2.0.0.0',
 
     //! home
     // header
@@ -14,15 +16,15 @@ return [
     'home_header_text_3' => 'Prenota una Camera ',
     // paragrafo 1
     'home_intro_text_1' => 'Nel <b>cuore pulsante di Roma</b>, l\'elegante e accogliente affittacamere Beige et Ble\' vanta una posizione privilegiata, a breve distanza dai principali <b>luoghi di interesse religiosi</b>, dai <b>centri d\'affari</b> e dalle <b>attrazioni turistiche</b> più famose della città.',
-    
+
     'home_intro_text_2' => 'La struttura è situata all\'interno di un\'imponente residenza nobiliare risalente al <b>XVIII secolo</b>, che si affaccia sulla storica <b>Camera dei Deputati</b>.',
-    
+
     'home_intro_text_3' => 'La comodità della posizione è garantita dalla vicinanza alla fermata della <b>metropolitana</b> e dalla facilità con cui è possibile raggiungere le principali <b>stazioni ferroviarie</b> e gli <b>aeroporti</b>.',
-    
+
     'home_intro_text_4' => 'Ogni stanza è dotata di <strong>bagno privato</strong>, aria condizionata, SmartTV da 32", Wi-Fi gratuito ad alta velocità, cassetta di sicurezza, riscaldamento e asciugacapelli. I letti <strong>King</strong> e <strong>Queen Size</strong> garantiscono un riposo ottimale.',
-    
+
     'home_intro_text_5' => 'Durante il soggiorno, offriamo ai nostri clienti un <strong>servizio di pulizia giornaliero</strong> e <strong>cambio degli asciugamani</strong> per mantenere gli ambienti sempre freschi e puliti.',
-    
+
     'home_intro_text_6' => 'L\'area comune mette a disposizione una macchina da <strong>caffè</strong> e il necessario per preparare un <strong>tè</strong> o una <strong>bevanda calda</strong>, ideale per rilassarsi dopo una giornata passata a esplorare le meraviglie di Roma!',
     // paragrafo 2
     'home_rooms_title' => 'Camere & Suite',
@@ -58,13 +60,151 @@ return [
     'home_luggage' => 'Deposito Bagagli',
     'home_shuttle' => 'Trasferimenti Aeroporti/Stazioni',
 
+    //! cookie banner
+    'cookie_banner_title' => 'Impostazioni Cookie',
+    'cookie_banner_text' => 'Questo sito utilizza i cookie per migliorare la tua esperienza di navigazione.',
+    'cookie_banner_learn_more' => 'Scopri di più',
+    'cookie_banner_accept_all' => 'Accetta tutti',
+    'cookie_banner_reject_all' => 'Rifiuta tutti tranne i necessari',
+    'cookie_banner_main_description' => 'BeigeEtBle Guesthouse utilizza i cookie per aiutarti a navigare in maniera efficiente e a svolgere determinate funzioni. Troverai informazioni dettagliate su tutti i cookie sotto ogni categoria di consensi sottostanti.',
+    'cookie_banner_necessary_info' => 'I cookie categorizzatati come "Necessari" vengono memorizzati sul tuo browser in quanto essenziali per consentire le funzionalità di base del sito.',
+    'cookie_banner_third_party_info' => 'Utilizziamo inoltre cookie di terze parti che ci aiutano nell\'analizzare come utilizzi questo sito web, memorizzare le tue preferenze e offrirti contenuti e pubblicità rilevanti per te. Questi cookie saranno memorizzati sul tuo browser solo a seguito del tuo consenso.',
+    'cookie_banner_impact_notice' => 'Puoi decidere di attivare o disattivare alcuni o tutti questi cookie, ma la disattivazione di alcuni di questi potrebbe avere un impatto sulla tua esperienza sul browser.',
+    'cookie_necessary_title' => 'Cookie necessari (sempre attivi)',
+    'cookie_necessary_description' => 'I cookie necessari sono fondamentali per le funzioni di base del sito Web e il sito Web non funzionerà nel modo previsto senza di essi. Questi cookie non memorizzano dati identificativi personali.',
+    'cookie_functional_title' => 'Cookie Funzionali',
+    'cookie_functional_description' => 'I cookie funzionali aiutano a svolgere determinate funzionalità come la condivisione del contenuto del sito Web su piattaforme di social media, la raccolta di feedback e altre funzionalità di terze parti.',
+    'cookie_analytics_title' => 'Cookie Analitici',
+    'cookie_analytics_description' => 'I cookie analitici vengono utilizzati per comprendere come i visitatori interagiscono con il sito Web. Questi cookie aiutano a fornire informazioni sulle metriche di numero di visitatori, frequenza di rimbalzo, fonte di traffico, ecc.',
+    'cookie_advertising_title' => 'Cookie Pubblicitari',
+    'cookie_advertising_description' => 'I cookie pubblicitari vengono utilizzati per fornire ai visitatori annunci pubblicitari personalizzati in base alle pagine visitate in precedenza e per analizzare l\'efficacia della campagna pubblicitaria.',
+    'cookie_privacy_notice' => 'Per maggiori informazioni, consulta la nostra',
+    'cookie_privacy_link' => 'Privacy Policy',
 
+    //! privacy 
+    'privacy_main_title' => 'Privacy Policy e Cookie Policy',
+    'privacy_info_title' => 'Informativa sul trattamento dei dati personali',
+    'privacy_info_text' => 'La presente informativa è resa ai sensi dell\'art. 13 del Regolamento UE 2016/679 (GDPR - General Data Protection Regulation) e del D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 (Codice in materia di protezione dei dati personali).',
 
+    'privacy_framework_title' => 'Quadro Normativo di Riferimento',
+    'privacy_framework_gdpr' => '<strong>Regolamento UE 2016/679 (GDPR)</strong>: normativa europea in materia di protezione dei dati personali, in vigore dal 25 maggio 2018',
+    'privacy_framework_196' => '<strong>D.Lgs. 196/2003</strong>: Codice in materia di protezione dei dati personali',
+    'privacy_framework_101' => '<strong>D.Lgs. 101/2018</strong>: Disposizioni per l\'adeguamento della normativa nazionale al GDPR',
+    'privacy_framework_directive' => '<strong>Direttiva 2002/58/CE</strong>: normativa relativa al trattamento dei dati personali nel settore delle comunicazioni elettroniche',
+    'privacy_framework_garante' => '<strong>Provvedimenti del Garante Privacy</strong>: in particolare le Linee guida cookie e altri strumenti di tracciamento del 10 giugno 2021',
 
+    'privacy_controller_title' => 'Titolare del Trattamento',
+    'privacy_controller_info' => 'Il Titolare del trattamento è BeigeEtBle Guesthouse, con sede in Via degli Uffici del Vicario, 33, 00186, Roma - Italia.',
+    'privacy_controller_definition' => 'Ai sensi dell\'art. 4 GDPR, per "titolare del trattamento" si intende la persona fisica o giuridica che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento di dati personali.',
 
+    'privacy_definitions_title' => 'Definizioni ai sensi dell\'Art. 4 GDPR',
+    'privacy_def_personal_data' => '<strong>Dato personale</strong>: qualsiasi informazione riguardante una persona fisica identificata o identificabile',
+    'privacy_def_processing' => '<strong>Trattamento</strong>: qualsiasi operazione o insieme di operazioni compiute sui dati personali',
+    'privacy_def_profiling' => '<strong>Profilazione</strong>: qualsiasi forma di trattamento automatizzato di dati personali per valutare determinati aspetti personali',
+    'privacy_def_subject' => '<strong>Interessato</strong>: la persona fisica cui si riferiscono i dati personali',
 
+    'privacy_principles_title' => 'Principi Applicabili al Trattamento (Art. 5 GDPR)',
+    'privacy_principles_intro' => 'Il trattamento dei dati personali si basa sui seguenti principi:',
+    'privacy_principle_1' => '<strong>Liceità, correttezza e trasparenza</strong>: i dati sono trattati in modo lecito, corretto e trasparente',
+    'privacy_principle_2' => '<strong>Limitazione della finalità</strong>: i dati sono raccolti per finalità determinate, esplicite e legittime',
+    'privacy_principle_3' => '<strong>Minimizzazione dei dati</strong>: i dati sono adeguati, pertinenti e limitati a quanto necessario',
+    'privacy_principle_4' => '<strong>Esattezza</strong>: i dati sono esatti e, se necessario, aggiornati',
+    'privacy_principle_5' => '<strong>Limitazione della conservazione</strong>: i dati sono conservati per un periodo non superiore al necessario',
+    'privacy_principle_6' => '<strong>Integrità e riservatezza</strong>: i dati sono trattati in modo da garantire un\'adeguata sicurezza',
 
+    'privacy_data_types_title' => 'Tipologie di Dati Trattati',
+    'privacy_navigation_data_title' => 'Dati di navigazione',
+    'privacy_navigation_data_intro' => 'Durante la navigazione sul sito vengono raccolti:',
+    'privacy_navigation_data_1' => 'Indirizzi IP',
+    'privacy_navigation_data_2' => 'Nomi a dominio dei computer utilizzati',
+    'privacy_navigation_data_3' => 'Indirizzi URI/URL delle risorse richieste',
+    'privacy_navigation_data_4' => 'Data e orario delle richieste',
+    'privacy_navigation_data_5' => 'Metodo utilizzato per sottoporre la richiesta al server',
+    'privacy_navigation_data_6' => 'Dimensione del file ottenuto in risposta',
+    'privacy_navigation_data_7' => 'Codice numerico del server',
+    'privacy_navigation_data_8' => 'Altri parametri relativi al sistema operativo e browser dell\'utente',
 
+    'privacy_voluntary_data_title' => 'Dati forniti volontariamente',
+    'privacy_voluntary_data_intro' => 'Trattiamo i seguenti dati forniti volontariamente durante la prenotazione o il contatto:',
+    'privacy_voluntary_data_1' => 'Dati anagrafici',
+    'privacy_voluntary_data_2' => 'Dati di contatto',
+    'privacy_voluntary_data_3' => 'Dati per la prenotazione',
+    'privacy_voluntary_data_4' => 'Altri dati forniti volontariamente dall\'utente',
+
+    'privacy_purposes_title' => 'Finalità e Base Giuridica del Trattamento',
+    'privacy_purposes_intro' => 'I dati personali sono trattati per:',
+    'privacy_purpose_1' => 'Gestire le prenotazioni e i servizi richiesti (<strong>Base giuridica: esecuzione del contratto - Art. 6.1.b GDPR</strong>)',
+    'privacy_purpose_2' => 'Adempiere agli obblighi di legge, inclusi quelli fiscali e di pubblica sicurezza (<strong>Base giuridica: obbligo legale - Art. 6.1.c GDPR</strong>)',
+    'privacy_purpose_3' => 'Rispondere alle richieste di informazioni (<strong>Base giuridica: esecuzione di misure precontrattuali - Art. 6.1.b GDPR</strong>)',
+    'privacy_purpose_4' => 'Inviare comunicazioni di servizio (<strong>Base giuridica: legittimo interesse - Art. 6.1.f GDPR</strong>)',
+    'privacy_purpose_5' => 'Analizzare l\'utilizzo del sito per migliorarne le funzionalità (<strong>Base giuridica: legittimo interesse - Art. 6.1.f GDPR</strong>)',
+    'privacy_purpose_6' => 'Prevenire e individuare eventuali attività fraudolente (<strong>Base giuridica: legittimo interesse - Art. 6.1.f GDPR</strong>)',
+
+    'privacy_cookie_title' => 'Cosa sono i cookie',
+    'privacy_cookie_description' => 'I cookie sono piccoli file di testo che i siti visitati inviano al dispositivo dell\'utente, dove vengono memorizzati per essere ritrasmessi agli stessi siti alla visita successiva.',
+
+    'privacy_cookie_types_title' => 'Tipologie di cookie utilizzati',
+    'privacy_cookie_technical_title' => '<strong>Cookie tecnici (necessari)</strong>:',
+    'privacy_cookie_technical_1' => 'Sono essenziali per il funzionamento del sito',
+    'privacy_cookie_technical_2' => 'Consentono la normale navigazione e fruizione del sito',
+    'privacy_cookie_technical_3' => 'Non possono essere disattivati',
+
+    'privacy_cookie_analytics_title' => '<strong>Cookie analitici</strong>:',
+    'privacy_cookie_analytics_1' => 'Utilizziamo Google Analytics con IP anonimizzato',
+    'privacy_cookie_analytics_2' => 'Servono per raccogliere informazioni statistiche sull\'utilizzo del sito',
+    'privacy_cookie_analytics_3' => 'Possono essere disattivati tramite le impostazioni dei cookie',
+
+    'privacy_cookie_functional_title' => '<strong>Cookie funzionali</strong>:',
+    'privacy_cookie_functional_1' => 'Permettono di salvare le preferenze dell\'utente (es. lingua)',
+    'privacy_cookie_functional_2' => 'Migliorano l\'esperienza di navigazione',
+    'privacy_cookie_functional_3' => 'Possono essere disattivati tramite le impostazioni dei cookie',
+
+    'privacy_cookie_management_title' => 'Gestione dei Cookie',
+    'privacy_cookie_management_intro' => 'L\'utente può gestire le preferenze relative ai cookie attraverso:',
+    'privacy_cookie_management_1' => 'Il banner dei cookie mostrato alla prima visita',
+    'privacy_cookie_management_2' => 'Le impostazioni del proprio browser',
+    'privacy_cookie_management_3' => 'Gli strumenti messi a disposizione da terze parti (es. opt-out di Google Analytics)',
+
+    'privacy_retention_title' => 'Periodo di Conservazione',
+    'privacy_retention_intro' => 'I dati personali saranno conservati per:',
+    'privacy_retention_1' => '<strong>Dati di prenotazione</strong>: 10 anni per obblighi fiscali (Art. 2220 Codice Civile)',
+    'privacy_retention_2' => '<strong>Dati di contatto</strong>: 2 anni dall\'ultimo contatto',
+    'privacy_retention_3' => '<strong>Dati di navigazione</strong>: 7 giorni',
+    'privacy_retention_4' => '<strong>Cookie tecnici</strong>: durata della sessione',
+    'privacy_retention_5' => '<strong>Cookie analitici e funzionali</strong>: massimo 12 mesi',
+
+    'privacy_recipients_title' => 'Destinatari dei Dati',
+    'privacy_recipients_intro' => 'I dati personali potrebbero essere comunicati a:',
+    'privacy_recipient_1' => 'Personale autorizzato del Titolare',
+    'privacy_recipient_2' => 'Fornitori di servizi tecnici e informatici',
+    'privacy_recipient_3' => 'Autorità pubbliche quando previsto dalla legge',
+    'privacy_recipient_4' => 'Altri soggetti quando necessario per l\'esecuzione del contratto',
+
+    'privacy_transfer_title' => 'Trasferimento dei Dati all\'Estero',
+    'privacy_transfer_intro' => 'Ai sensi degli articoli 44-50 del GDPR, il trasferimento di dati personali verso paesi terzi può avvenire solo se:',
+    'privacy_transfer_1' => 'La Commissione Europea ha deciso che il paese terzo garantisce un livello di protezione adeguato',
+    'privacy_transfer_2' => 'Sono fornite garanzie adeguate e gli interessati dispongono di diritti azionabili',
+    'privacy_transfer_3' => 'Si applica una delle deroghe specifiche previste dall\'art. 49 GDPR',
+
+    'privacy_rights_title' => 'Diritti dell\'Interessato',
+    'privacy_rights_intro' => 'Ai sensi degli articoli 15-22 del GDPR, l\'interessato ha diritto di:',
+    'privacy_right_1' => '<strong>Accesso (Art. 15)</strong>: ottenere la conferma del trattamento e accedere ai propri dati',
+    'privacy_right_2' => '<strong>Rettifica (Art. 16)</strong>: ottenere la correzione dei dati inesatti o l\'integrazione di quelli incompleti',
+    'privacy_right_3' => '<strong>Cancellazione (Art. 17)</strong>: ottenere la cancellazione dei dati nei casi previsti dal GDPR',
+    'privacy_right_4' => '<strong>Limitazione (Art. 18)</strong>: ottenere la limitazione del trattamento nei casi previsti dal GDPR',
+    'privacy_right_5' => '<strong>Portabilità (Art. 20)</strong>: ricevere i dati in formato strutturato e trasmetterli ad altro titolare',
+    'privacy_right_6' => '<strong>Opposizione (Art. 21)</strong>: opporsi al trattamento dei dati nei casi previsti dal GDPR',
+    'privacy_right_7' => '<strong>Processo automatizzato (Art. 22)</strong>: non essere sottoposto a processi decisionali automatizzati',
+
+    'privacy_security_title' => 'Sicurezza',
+    'privacy_security_intro' => 'Adottiamo misure di sicurezza tecniche e organizzative adeguate per proteggere i dati personali da:',
+    'privacy_security_1' => 'Accessi non autorizzati',
+    'privacy_security_2' => 'Alterazione accidentale o illecita',
+    'privacy_security_3' => 'Perdita accidentale',
+    'privacy_security_4' => 'Trattamento non conforme alle finalità della raccolta',
+
+    'privacy_complaint_title' => 'Reclamo all\'Autorità di Controllo',
+    'privacy_complaint_text' => 'Ai sensi dell\'art. 77 GDPR, l\'interessato ha il diritto di proporre reclamo all\'autorità di controllo competente (in Italia, il Garante per la Protezione dei Dati Personali) qualora ritenga che il trattamento dei suoi dati personali violi il GDPR.',
 
     //! contact us
     'contact_us' => 'Contatti',
@@ -216,8 +356,4 @@ return [
     'room_wardrobe' => 'GUARDAROBA',
     'room_gallery' => 'Galleria',
     'room_availability' => 'Verifica la disponibilità'
-
-
-
-
 ];

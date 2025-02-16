@@ -2,7 +2,7 @@
     <div class="container-fluid mx-0 px-0">
         <div class="d-flex justify-content-between align-items-center row p-0 m-0 w-100 d-block d-lg-none">
             <div class="col-6 d-flex justify-content-start">
-                <a class="navbar-brand " href="#" class="d-block d-lg-none p-0 m-0">
+                <a class="navbar-brand " href="{{ route('homepage') }}" class="d-block d-lg-none p-0 m-0">
                     <img src="../logo/Logo-Beige-et-ble-O-nobilitato.png" alt="Logo" style="width: 125px;">
                 </a>
             </div>
@@ -18,9 +18,10 @@
 
 
         <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-            <a class="navbar-brand col-lg-3 me-0" href="#"><img src="../logo/Logo-Beige-et-ble-O-nobilitato.png"
-                    alt="Logo" style="width: 150px" class="d-none d-lg-block"></a>
-            <ul class="navbar-nav col-lg-6 col-lg-7 justify-content-lg-center">
+            <a class="navbar-brand col-lg-3 me-0" href="{{ route('homepage') }}"><img
+                    src="../logo/Logo-Beige-et-ble-O-nobilitato.png" alt="Logo" style="width: 150px"
+                    class="d-none d-lg-block"></a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
                 <li class="nav-item">
                     <a class="nav-link active mx-2 text-uppercase" aria-current="page"
                         href="{{ route('homepage') }}">HOME</a>
@@ -34,19 +35,15 @@
                         href="{{ route('contact_us') }}">{{ __('ui.contact') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-1 text-uppercase" aria-disabled="true" href="{{ route('book_now') }}"
-                        target="blank">{{ __('ui.book') }}</a>
+                    <a class="nav-link mx-1 text-uppercase" aria-disabled="true"
+                        href="{{ route('book_now') }}">{{ __('ui.book') }}</a>
                 </li>
-                <ul class="d-none d-lg-block d-flex align-items-center mt-2">
-                    {{-- <li class="nav-item mx-1 d-flex align-items-center "> --}}
+                <ul class="d-none d-lg-block align-items-center mt-2">
                     <x-_locale class="" lang="en" />
-                    {{-- </li> --}}
-                    {{-- <li class="nav-item mx-1 d-flex align-items-center"> --}}
                     <x-_locale class="" lang="it" />
-                    {{-- </li> --}}
                 </ul>
             </ul>
-            <div class="d-flex col-lg-2 justify-content-lg-end align-items-center d-none d-lg-block text-end">
+            <div class="d-flex col-lg-3 justify-content-lg-end align-items-center d-none d-lg-block text-end">
                 <a href="https://www.facebook.com/beigeetble" class="text-decoration-none">
                     <i class="fa-brands fa-facebook pe-3 pe-lg-4 fs-5"></i>
                 </a>
@@ -67,13 +64,15 @@
                             <i class="fa-brands fa-instagram fs-5"></i>
                         </a></li>
                 </div>
-                <div class="d-flex me-3">
-                    <li class="nav-item mx-1 d-flex align-items-center">
-                        <x-_locale class="" lang="en" />
-                    </li>
-                    <li class="nav-item mx-1 d-flex align-items-center">
-                        <x-_locale class="" lang="it" />
-                    </li>
+                <div class=" me-3">
+                    <div class="language-selector d-flex">
+                        <li class="nav-item mx-1 d-flex align-items-center">
+                            <x-_locale class="" lang="en" />
+                        </li>
+                        <li class="nav-item mx-1 d-flex align-items-center">
+                            <x-_locale class="" lang="it" />
+                        </li>
+                    </div>
                 </div>
             </div>
         </div>

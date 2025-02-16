@@ -18,6 +18,11 @@ class PublicController extends Controller
         return view('rooms');
     }
 
+    public function privacy_policy()
+    {
+        return view('privacy-policy');
+    }
+
     public function cassiopea()
     {
         return view('../rooms/cassiopea');

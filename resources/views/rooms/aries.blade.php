@@ -136,7 +136,7 @@
                 <img src="{{ asset('storage/rooms_page/aries/BRG_9769.jpg') }}" alt="Img 1" class="img-fluid">
             </div>
             <div class="col-12 col-lg-4 my-2">
-                <img src="{{ asset('storage/rooms_page/aries/BRG_9777.jpg') }}" alt="Img 1"
+                <img src="{{ asset('storage/rooms_page/aries/BRG_9979.jpg') }}" alt="Img 1"
                     class="img-fluid">
             </div>
             <div class="col-12 col-lg-6 my-2">
@@ -148,7 +148,7 @@
                     class="img-fluid">
             </div>
             <div class="col-12 col-lg-3 my-2">
-                <img src="{{ asset('storage/rooms_page/aries/BRG_9979.jpg') }}" alt="Img 1"
+                <img src="{{ asset('storage/rooms_page/aries/BRG_9777.jpg') }}" alt="Img 1"
                     class="img-fluid">
             </div>
             <div class="col-12 col-lg-3 my-2">

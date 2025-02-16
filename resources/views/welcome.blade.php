@@ -13,13 +13,14 @@
                         <n>G</n>uest<n>H</n>ouse
                     </h3>
                     <h5 class="color-grey fst-italic text-capitalize Playfair pt-4 text-center">{{ __('ui.home_header_text_2') }}</h5>
-                    <a href="#" class="Syncopate fw-bold text-decoration-none text-uppercase pt-5">{{ __('ui.home_header_text_3') }}
+                    <a href="{{ route('book_now') }}" class="Syncopate fw-bold text-decoration-none text-uppercase pt-5">{{ __('ui.home_header_text_3') }}
                         <i class="bi bi-calendar3"></i>
                     </a>
 
                 </div>
             </div>
         </header>
+
         {{-- * Sezione 1 Testi con capolettera --}}
         <div class="section-1 row m-0">
             <div class="col-12 col-lg-6 m-0 ">

@@ -19,5 +19,7 @@ Route::post('contact_us/send', [PublicController::class, 'send_email'])->name('s
 
 Route::get('book_now', [PublicController::class, 'book_now']) ->name('book_now');
 
+Route::get('/privacy-policy', [PublicController::class, 'privacy_policy']) ->name('privacy-policy');
+
 //language
 Route::post('/lingua/{lang}', [PublicController::class, 'setLanguage'])->name('setLocale');
